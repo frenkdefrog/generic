@@ -2,6 +2,17 @@
 
 *This repository is for generic purposes for personal usage.*
 
+<!-- TOC -->
+- [Generic Tools](#generic-tools)
+    - [Useful URL's](#useful-urls)
+            - [Moving Windows Recovery Partition Correctly](#moving-windows-recovery-partition-correctly)
+    - [Useful Commands](#useful-commands)
+            - [Removing emails from postfix mailqueue filtered by email address:](#removing-emails-from-postfix-mailqueue-filtered-by-email-address)
+
+<!-- /TOC -->
+
+
+
 ## Useful URL's
 
 #### Moving Windows Recovery Partition Correctly
