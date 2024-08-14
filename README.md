@@ -10,3 +10,10 @@ When a windows partition resize is needed but the Windows Recovery Partition is 
 [Moving Windows Recovery Partition Correctly](https://thedxt.ca/2023/06/moving-windows-recovery-partition-correctly/)
 
 
+
+## Useful Commands
+
+#### Removing emails from postfix mailqueue filtered by email address:
+```
+postqueue -p | tail -n +2 | awk 'BEGIN { RS = "" } /<mail address here>/ { print $1 }' | tr -d '*!' | postsuper -d -
+```
