@@ -1,0 +1,1 @@
+# Zabbix versrion tested: 7.2
